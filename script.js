@@ -1,4 +1,3 @@
-
 document.getElementById('login-form').addEventListener('submit', async function (e) {
   e.preventDefault();
 
@@ -7,7 +6,7 @@ document.getElementById('login-form').addEventListener('submit', async function 
 
   if (username === 'ambulatorio' && password === 'ambulatorio') {
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbwWU8J-He1l9V-6STrNYc22Io3PJquOLXkge-PBrMsIqd1yWTzJh1a02aWZqOpZSsclxQ/exec", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbwVOSZnHUeKfRUyxy66QGegekodo8H4Hsf1efk2awz2w7ZCCjTmT8hSww2HEJ4cJOMZ6Q/exec", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded"
